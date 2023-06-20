@@ -1,0 +1,74 @@
+body{
+    background-color: #2A2F4F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: #E5BEEC;
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2{
+    color: #E5BEEC;
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.can-click{
+    cursor: pointer;
+}
+
+h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #917FB3;
+    cursor: pointer;
+}
+
+#botao-verde{
+    background-color: rgb(68, 202, 68);
+}
+
+#botao-vermelho{
+    background-color: rgb(225, 20, 20);
+}
+
+#botao-amarelo{
+    background-color: rgb(235, 226, 41);
+}
+
+#botao-azul{
+    background-color: rgb(24, 53, 216);
+}
+
+button{
+    height: 220px;
+    width: 220px;
+    border-radius: 40px;
+    border-width: 10px;
+    border-color: #917FB3;
+    margin: 25px;
+    cursor: pointer;
+}
+
+#div-botoes{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
